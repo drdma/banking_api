@@ -1,7 +1,7 @@
 # banking API
 
 ## Overview
-Proposed solution: 3 relational tables to store customers information, accounts and transactions.
+3 relational tables to store customers information, accounts and transactions.
 
 ### List all customers
 - added "identification" field for storing e.g. passport numbers to distinguish between customers with same names for example
@@ -18,7 +18,7 @@ Proposed solution: 3 relational tables to store customers information, accounts 
 [
     {"customers": {
         "id": 1,
-        "name": "Arisha Barron",
+        "name": "Thomas Anderson",
         "identification": "a232fdb9-c7c5-4ad0-b8df-e606bff483e6"
     }}
 ]
@@ -48,7 +48,7 @@ security reasons. Only allow viewing of single account and transactions related 
     {"SUCCESS": {
       "message": "customer added",
       "id": 1,
-      "name": "Arisha Barron",
+      "name": "Thomas Anderson",
       "identification": "a232fdb9-c7c5-4ad0-b8df-e606bff483e6"
     }}
 ]
@@ -84,7 +84,7 @@ security reasons. Only allow viewing of single account and transactions related 
         "id": 1,
         "balance": 100,
         "customer_id": 1,
-        "name": "Arisha Barron",
+        "name": "Thomas Anderson",
     }}
 ]
 ```
