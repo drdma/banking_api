@@ -1,0 +1,9 @@
+services:
+  bankingapi:
+    build: .
+    volumes:
+      - .:/usr/src/app # mount current directory to here
+    ports:
+      - "8080:80"
+
+

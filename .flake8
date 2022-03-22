@@ -1,0 +1,12 @@
+[flake8]
+exclude =
+    .git,
+    __pycache__,
+    .ipynb_checkpoints,
+ 
+max-line-length = 90
+ignore = 
+    # Line break occurred before a binary operator
+    W503
+    # First line should be in imperative mood
+    D401
